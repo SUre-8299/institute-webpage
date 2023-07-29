@@ -1,0 +1,27 @@
+@media only screen and (max-width:1300px) {
+    body{
+        background-color: chartreuse;
+    }
+    .head{
+        width: 100%;
+    }
+    .nav-bar{
+        position: absolute;
+    }
+    .nav-bar ul li{
+        width: auto;
+        height: auto;
+        display: block;
+    }
+    #login{
+        display: none;
+    }
+    .logo-name h3{
+        display: none;
+    }
+    #logo{
+        margin-top: 2%;
+        margin-left: 70%;
+
+    }
+}

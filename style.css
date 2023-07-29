@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+body{
+	font-family: 'Roboto Condensed', sans-serif,Roboto Condensed','sans-serif';
+}
+*{
+			padding:0px;
+			margin:0px;
+			box-sizing:border-box;
+			}
+		.wrapper{
+				width:100%;
+				height:auto;
+				}
+		.head{
+			width:100%;
+			height:60px;
+			position: fixed;
+			z-index: 2;
+			background-color: aliceblue;
+			}	
+		.logo-name{
+			width:20%;
+			height:auto;
+			position:absolute;
+			margin-left:100px;
+			}
+		#logo{
+			margin-top:10px;
+			position:absolute;
+			}
+		.logo-name h3{	
+			margin-top:20px;
+			margin-left:70px;
+			color:blue;
+			}
+		.nav-bar{
+			width:55%;
+			height: auto;
+			float:right;
+			
+			}
+		.nav-bar ul{
+			margin-top:23px;
+			}
+		.nav-bar ul li{
+			display:inline-block;
+		
+			}
+		.nav-bar ul li a{
+			text-decoration:none;
+			color:black;
+			padding:5px 20px;
+			}
+		.nav-bar ul li a:hover{
+			background-color:lightgreen;
+			color:white;
+			border-radius:20px;
+			}	
+		.container1	{
+			width:100%;
+			height:600px;
+			background-color:blanchedalmond;
+			position: relative;
+			}
+		.img-box1{
+			width:450px;
+			height:500px;
+			position:absolute;
+			background-image:url(student.png);
+			background-position-x:-120px;
+			background-size:cover;
+			margin-left:80px;
+			margin-top:100px;
+			}
+		.content-box1{
+				width:50%;
+				height:300px;
+				float:right;
+				margin-top:100px;
+				margin-right:8%;
+				text-align:right;
+				}
+		.content-box1 h2{
+				padding:10px;
+				font-size:35px;
+				}
+		.content-box1 p{
+				padding:10px;
+				font-size:20px;
+				}
+		#btn{
+			background-color:blue;
+			color:white;
+			border:none;
+			padding:10px 20px;
+			border-radius:20px;
+			}
+		.container2	{
+			width:100%;
+			height:500px;
+			background-color:cornflowerblue;
+			}
+				
+		.content-box2{
+			width:25%;
+			height:450px;
+			background-color:burlywood ;
+			float:left;
+			margin-left:10%;
+			margin-top:25px;
+			}
+		#logo1{
+			margin-left:10px;
+			margin-top: 3%;
+			}
+		#logo2{
+			margin-top: 3%;
+			margin-left: 40%;
+		}	
+		.content-box2 h2{
+			margin-top:30px;
+			font-size:35px;
+			text-align: center;
+			color:black;
+			}
+		.content-box2 h3{
+			font-size:25px;
+			padding:10px;
+			text-align: center;
+			color:black;
+			}
+		.content-box2 p{
+			font-size:15px;
+			padding:10px;
+			color:black;
+			margin-left: 2%;
+			margin-right: 2%;
+			}	
+		#btn1{
+			background-color:black;
+			color:blue;
+			border:none;
+			margin-top:20px;
+			padding:10px 20px;
+			border-radius:20px;
+			margin-left: 5%;
+			}	
+		.content-box3{
+			width:25%;
+			height:450px;
+			text-align: center;
+			background-color:bisque;
+			float:right;
+			margin-right:10%;
+			margin-top:25px;
+			}
+		.content-box3 h2{
+			margin-top:30px;
+			font-size:35px;
+			text-align: center;
+			color:black;
+			}
+		.content-box3 h3{
+			font-size:25px;
+			padding:10px;
+			color:black;
+			}
+		.content-box3 p{
+			font-size:15px;
+			padding:10px;
+			color:black;
+			padding:10px;
+			text-align: left;
+			margin-left: 2%;
+			margin-right: 2%;
+			}	
+		.content-box4{
+			width:25%;
+			height:450px;
+			background-color:lightgreen;
+			position:absolute;
+			text-align: center;
+			margin-left:37.5%;
+			margin-top:25px;
+			}	
+		.content-box4 h2{
+			margin-top:30px;
+			font-size:35px;
+			color:black;
+			}
+		.content-box4 h3{
+			font-size:25px;
+			padding:10px;
+			color:black;
+			}
+		.content-box4 p{
+			font-size:16px;
+			padding:15px;
+			font-family: justfy;
+			text-align: left;
+			color:black;
+			
+			}
+		.container3	{
+			width:100%;
+			height:500px;
+			background-color:whitesmoke;
+			}	
+		.content-box5{
+			width:100%;
+			height:120px;
+			background-color:white;
+			}
+		.content-box5 h2{
+			margin-left:5%;
+			margin-top:10px;
+			color:black;
+			letter-spacing:3px;
+			font-size:30px;
+			}
+		.content-box5 h3 {
+			margin-left:10%;
+			margin-top:50px;
+			font-size:25px;
+			}
+		#color{
+			color:black;
+			}
+		#color2{
+			color:blue;
+			}	
+		.img-box2{
+			width:500px;
+			height:300px;
+			background-image:url(student2.png);
+			position:absolute;
+			background-color: burlywood;
+			margin-left:80px;
+			margin-top:70px;
+			}
+		.content-box6{
+			width:600px;
+			height:300px;
+			float:right;
+			margin-top:70px;
+			margin-right:70px;
+			}
+		.content-box6 h1{
+			margin-top:120px;
+			padding:10px;
+			font-size:35px;
+			}
+		.content-box6 p{
+            margin-top:20px;
+            }			
+		#color3{
+			color:blue;
+			font-size:18px;
+			}
+		#login{
+            position:absolute;
+			margin-left:88%;
+			padding:5px 15px;
+			font-size:15px;
+			margin-top:17px;
+			border:none;
+			background-color:blue;
+			color:white;
+			border-radius:20px;
+			}
+		#bold{
+				font-size:30px;
+				color:blue;
+				}
+		.footer{
+			width: 100%;
+			height: 400px;
+			background-color: seashell;
+		}				
+		.getintouch{
+			height:350px;
+			width: 300px;
+			position: absolute;
+			margin-left: 5%;
+			margin-top: 20px;
+			
+			
+		}
+		.usefulllinks{
+			height:350px;
+			width: 300px;
+			position: absolute;
+			margin-left: 29%;
+			margin-top: 20px;
+			
+		}
+		.ourservices{
+			height:350px;
+			width: 300px;
+			position: absolute;
+			margin-left: 53%;
+			margin-top: 20px;
+			
+		}
+		.newslater{
+			height:350px;
+			width: 300px;
+			position: absolute;
+			margin-left: 78%;
+			margin-top: 20px;
+			
+		}
